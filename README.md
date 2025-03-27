@@ -19,7 +19,7 @@ Site desenvolvido para atividade avaliativa da IE CE C. Francisco Carneiro Marti
 - HTML5, CSS3, JavaScript
 - Frameworks: [Prism.js / Prims.python / Prism.css]
 
-**Link de acesso**
+**Link dos frameworks utilizados**
 ```html
 <link href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/prism.js"></script>
