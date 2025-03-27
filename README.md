@@ -7,6 +7,9 @@ Site desenvolvido para atividade avaliativa da IE CE C. Francisco Carneiro Marti
 - **Status**: [Em desenvolvimento, Concluído, Versão Beta]
 - **Link de acesso**: Indisponível
 
+## Link de acesso:
+<a href="https://leleo-cpx.github.io/Site_D.Sistemas/">https://leleo-cpx.github.io/Site_D.Sistemas/</a>
+
 ## ✨ Funcionalidades Principais
 - Informativos básicos
 - Responsividade
