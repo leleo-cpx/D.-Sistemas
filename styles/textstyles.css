@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+html {
+    font-family: 'Figtree', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.75em;
+    margin-top: 20pxpx;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+h5 {
+    font-size: 1.25em;
+}
+
+h6 {
+    font-size: 1em;
+}
+
+/* Parágrafos */
+p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+.justif {
+    text-align: justify;
+}
+
+.legenda {
+    color: #474747;
+    font-size: 0.9em;
+}
+
+.nome {
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.cargo {
+    font-size: 0.8em;
+    font-weight: 400;
+}
+
+.centro {
+    text-align: center;
+    align-items: center;
+}
+
+.centro-web {
+    text-align: center;
+    align-items: center;
+}
+
+.data-noticia {
+    font-weight: 100;
+    font-size: small;
+    color: #cacaca;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.link2 {
+    color: #e7e7e7;
+    transition: 0.3s;
+}
+
+.link2:hover {
+    color: #FFB800;
+    font-size: 120%;
+}
+
+/* Botões */
+.nav-btn {
+    color: #0c0c0c;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.nav-btn:hover {
+    color: #007BFF;
+    transform: scale(1.05);
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 12px;
+    background-color: #0c0c0c;
+    color: #eeeeee;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-negative {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 12px;
+    background-color: #eeeeee;
+    color: #0c0c0c;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-negative:hover {
+    background-color: #ffffff;
+    transform: scale(1.05);
+}
+
+.btn:hover {
+    background-color: #006FC0;
+    transform: scale(1.05);
+}
+
+.btn:active {
+    background-color: #006FC0;
+}
+
+.btn-secondary {
+    background-color: #e2e2e2;
+    color: #0c0c0c;
+}
+
+.btn-secondary:hover {
+    background-color: #d3d3d3;
+}
+
+.btn-secondary:active {
+    background-color: #343a40;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.btn-danger:active {
+    background-color: #bd2130;
+}
+
+.copybtn {
+    color: #0c0c0c;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    display: inline-flex;
+}
+
+.copybtn img {
+    width: 20px;
+}
+
+.copybtn:hover {
+    cursor: pointer;
+}
+
+.titulo2 {
+    color: #343a40;
+}
+
+.titulo2-bgblack {
+    color: #cacaca;
+}
+
+.destaque {
+    border-left: #FFB800 5px solid;
+    padding-left: 15px;
+}
+
+hr {
+    border-top: 1px solid rgb(226, 226, 226);
+}
+
+.bgblack hr {
+    border: 1px solid rgb(20, 20, 20);
+}
+
+/* Celulares */
+
+@media only screen and (max-width: 600px) {}
+
+/* Tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {}

@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    background-color: #fcfcfc;
+}
+
+header {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #ffffff;
+    color: #0c0c0c;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #0c0c0c;
+    color: #eeeeee;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 30px;
+}
+
+main {
+    padding: 1rem;
+}
+
+nav {
+    position: sticky;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+nav ul .links {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    gap: 2rem;
+}
+
+nav ul img {
+    width: auto;
+    height: 30px;
+}
+
+nav ul div {
+    align-items: center;
+}
